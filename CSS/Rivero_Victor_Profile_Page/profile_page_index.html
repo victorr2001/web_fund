@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile_page_style.css">
+    <script src="script.js" defer></script>
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="nav">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                    <li><button class="btn" id="sign" onclick="signOut(this)">Sign Out</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="profile_box">
+                <div class="profile_sub_box">
+                    <div class="back">
+
+                    </div>
+                    <div class="profile_pic">
+                        <img src="icons/user-circle.png" alt="profile picture">
+                    </div>
+                    <div class="profile_name">
+                        <p id="userName"><b>Janet Doe</b></p>
+                    </div>
+                    <div class="location_edit">
+                        <img src="icons/map-marker.png" alt="map marker">
+                        <p>San Francisco</p>
+                    </div>
+                    <div class="track">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="location_edit">
+                        <img src="icons/gear.png" alt="gear">
+                        <a href="#" id="userName" onclick="changeName()">edit profile</a>
+                    </div>
+                </div>
+                <div class="education_sub_box">
+                    <div class="education_header">
+                        <div class="education">
+                            <p>Education</p>
+                        </div>
+                    </div>
+                    <div class="education_content">
+                        <ul class="education_list">
+                            <li>Coding Dojo - Full Stack Bootcamp</li>
+                            <li><ul class="education_sublist"><li>December 2019 - March 2020</li></ul></li>
+                            <li>Triple black belt in Python, MERN, and C#...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="connection_box">
+                <div class="connection_request">
+                    <div class="connection_request_header">
+                        <div class="connection_request_header_notes">
+                            <p id="request_count">2</p>
+                        </div>
+                        <div class="connection_request_header_word">
+                            <p>Connection Requests</p>
+                        </div>
+                    </div>
+                    <div class="connections" id="todd_away">
+                        <div class="connections_pic"><img src="images/todd-s.jpg" alt="Todd E"></div>
+                        <p>Todd E</p>
+                        <div class="connections_btn"><img src="icons/accept-circle.png" alt="accept circle">
+                        <img src="icons/close-circle.png" alt="close circle" onclick="removeTodd()"></div>
+                    </div>
+                    <div class="connections" id="phil_away">
+                        <div class="connections_pic"><img src="images/phil-s.jpg" alt="Phil K"></div>
+                        <p>Phil K</p>
+                        <div class="connections_btn"><img src="icons/accept-circle.png" alt="accept circle">
+                        <img src="icons/close-circle.png" alt="close circle" onclick="removePhil()"></div>
+                    </div>
+                </div>
+                <div class="your_connections">
+                    <div class="connection_request_header">
+                        <div class="connection_request_header_notes">
+                            <p>500+</p>
+                        </div>
+                        <div class="connection_request_header_word">
+                            <p>Your Connections</p>
+                        </div>
+                    </div>
+                    <div class="connections">
+                        <div class="connections_pic"><img src="images/adrien-s.jpg" alt="Adrien D"></div>
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="connections">
+                        <div class="connections_pic"><img src="images/anne-s.jpg" alt="Anne J"></div>
+                        <p>Anne J</p>
+                    </div>
+                    <div class="connections">
+                        <div class="connections_pic"><img src="images/alayne-s.jpg" alt="Alayne T"></div>
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="connections">
+                        <div class="connections_pic"><img src="images/arry-s.jpg" alt="Arry Y"></div>
+                        <p>Arry Y</p>
+                    </div>
+                </div>
+                <div class="viewmore">
+                    <div class="viewmore_word">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Click Event | Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="header"><h1>Dojonary</h1></div>
+            <input type="text" placeholder="Search">
+            <button class="btn" onclick="logout(this)">Login</button>
+        </div>
+        <div class="wrapper">
+            <div class="definitions">
+                <div class="defined">
+                    <div class="defined_header">
+                        <h2>ninja</h2>
+                    </div>
+                    <div class="defined_definition">
+                        <div class="defined_wordtype">
+                            <p><em>noun</em></p>
+                            <p>Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="defined_meaning">
+                            <p>A practitioned skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</p>
+                        </div>
+                    </div>
+                    <button class="likes_btn" onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="defined">
+                    <div class="defined_header">
+                        <h2>ninja</h2>
+                    </div>
+                    <div class="defined_definition">
+                        <div class="defined_wordtype">
+                            <p><em>noun</em></p>
+                            <p>Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="defined_meaning">
+                            <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                        </div>
+                    </div>
+                    <button class="likes_btn" onclick="alert('Ninja was liked')">37 Likes</button>
+                </div>
+            </div>
+            <div class="addDef">
+                <h2>Dojonary is defined by YOU</h2>
+                <button class="defbtn" onclick="take(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

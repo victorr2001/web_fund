@@ -1,0 +1,39 @@
+.nav {
+    background-color: #333333;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.nav-title {
+    color: #ffffff;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0px 15px 0px 10px;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: #16a2b8;
+    color: #ffffff;
+    box-shadow: 3px 3px 0px 0px #000000;
+    border: 2px solid black;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: grey;;
+}

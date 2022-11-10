@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #2a77e4;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px #000000;
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: grey;
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.header {
+    margin-left: 50px;
+}
+
+.wrapper {
+    width: inherit;
+    height: 800px;
+    display: flex;
+}
+
+.definitions {
+    display: block;
+    flex: 2;
+    margin: 20px 20px;
+}
+
+.addDef {
+    display: block;
+    flex: 1;
+    margin: 20px 20px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.defined {
+    width: inherit;
+    height: 220px;
+    border: 3px solid black;
+    display: block;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.defbtn {
+    color: black;
+    background-color: greenyellow;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px #000000;
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.defined_header {
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.defined_definition {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+}
+
+.defined_wordtype {
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+.defined_meaning {
+    font-size: 20px;
+    color: black;
+}
+
+.likes_btn {
+    color: #ffffff;
+    background-color: salmon;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px #000000;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 25px;
+    padding: 5px;
+}   

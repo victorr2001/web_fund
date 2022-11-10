@@ -1,0 +1,254 @@
+* {
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 900px;
+    background-color: blanchedalmond;
+    display: flex;
+    margin: 20px auto;
+}
+
+.heading {
+    background-color: #333333;
+    width: inherit;
+    height: 80px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: #333333;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.nav-title {
+    color: #ffffff;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0px 15px 0px 10px;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: #16a2b8;
+    color: #ffffff;
+    box-shadow: 3px 3px 0px 0px #000000;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: grey;;
+}
+
+.profile_box {
+    flex: 2;
+    margin: 20px;
+    display: block;
+    
+}
+
+.connection_box {
+    flex: 1;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.connection_request {
+    height: 300px;
+    width: inherit;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.your_connections {
+    height: 425px;
+    width: inherit;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.viewmore {
+    background-color: #ffffff;
+    width: inherit;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.viewmore_word {
+    margin-left: 25px;
+}
+
+.connection_request_header {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    height: 65px;
+    width: inherit;
+    align-items: center;
+}
+
+.connection_request_header_notes {
+    padding: 17px;
+    background-color: grey;
+    border-radius: 50%;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.connection_request_header_word {
+    font-weight: bold;
+}
+
+.connections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.connections_pic img {
+    margin: 10px;
+    height: 55px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.connections_btn {
+    justify-content: right;
+    align-items: flex-end;
+    margin: 10px;
+
+}
+
+.connections_btn img {
+    height: 20px;
+    width: auto;
+}
+
+.profile_sub_box {
+    background-color: #ffffff;
+    padding: 0px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.education_sub_box {
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.education_header {
+    background-color: #333333;
+    color: #ffffff;
+    width: inherit;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.education {
+    margin: 0px 0px 0px 25px;
+}
+
+.education_content {
+    margin: 25px;
+}
+
+.education_list {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.education_sublist {
+    color: grey;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.back {
+    background-color: #16a2b8;
+    border-radius: 1px;
+    width: inherit;
+    height: 100px;
+}
+
+.profile_name {
+    margin: 75px 40px 0px;
+    font-size: 25px;
+}
+
+.profile_pic {
+    margin-left: 60px;
+    position: absolute;
+    top: 170px;
+}
+
+.profile_pic img {
+    height: 125px;
+    width: auto;
+}
+
+.location_edit {
+    margin: 5px 40px 0px;
+    display: flex;
+    align-items: left;
+    font-size: 15px;
+    
+    justify-content: left;
+}
+
+.location_edit img {
+    height: 25px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.track {
+    margin: 5px 0px 0px 40px;
+}

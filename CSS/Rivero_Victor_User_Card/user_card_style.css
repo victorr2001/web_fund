@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.back {
+    background-color: #16a2b8;
+    width: inherit;
+    height: 150px;
+}
+
+.profile_name {
+    margin: 120px 80px 5px;
+    font-size: 35px;
+}
+
+.profile_pic {
+    margin-left: 60px;
+    position: absolute;
+    top: 60px;
+}
+
+.profile_pic img {
+    height: 200px;
+    width: auto;
+}
+
+.location_edit {
+    margin: 10px 80px 5px 60px;
+    display: flex;
+    align-items: left;
+    font-size: 20px;
+}
+
+.location_edit img {
+    height: 25px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.track {
+    margin: 10px 0px 0px 55px;
+}
+
+

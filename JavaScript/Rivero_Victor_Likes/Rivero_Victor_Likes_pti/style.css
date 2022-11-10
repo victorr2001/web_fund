@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.post {
+    margin: 20px auto;
+    padding: 15px;
+    height: 150px;
+    width: 550px;
+    background-color: #fff;
+    color: #333;
+    display: block;
+    border: 3px solid black;
+}
+
+.toppost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.user_name {
+    margin: 10px;
+}
+
+.likable {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.btn {
+    border: 3px solid black;
+    color: #333;
+    background-color: gold;
+    box-shadow: 3px 3px #333;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.likeCount {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.caption {
+    margin: 10px auto;
+}
+
